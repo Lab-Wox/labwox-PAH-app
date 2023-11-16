@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labwox PAH Application</title>
+    <!---  code for linking css --->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    
+    <!-- code for font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <!-- code for linking google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100;1,300;1,400&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,400;8..144,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main-container">
+    <!-- header section -->
+    <header class="header">
+      <div class="logo">
+        <img src="image/download.png">
+      </div>
+    
+      <nav class="navbar">
+        <a href="#About">About</a>
+        <a href="#Testlisting">Test Listing</a>
+        <a href="#services">Services</a>
+        <a href="#Resources">Resources</a>
+        <a href="#contact">Contact</a>
+  
+        <img src="image/download (4).png" alt="labwox">
+      </nav>
+            
+      <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div> 
+      </div>
+
+      <div class="login">
+        <input type="submit" value="Login" class="btn-login">
+        <input type="submit" value="Sign up" class="btn-sign">
+      </div>
+    
+    </header>
+    <!-- header section -->
+    
+    
+    <!-- banner section -->
+    <section class="about" id="about">
+      <div class="box">
+        <h1>AANALYSIS OF PAH IN SPENT COOKING OIL </h1>
+        <h3>GC-MSD</h3> 
+        <br>
+        <h4>Introduction</h4>
+        <p>Vegetable oils are an important food source and cooking medium all over the world. Polynuclear aromatic hydrocarbons are lipophilic compounds which are produced as a byproduct of the combustion of organic matter. Some PAHs have been confirmed to be carcinogenic.</p>
+        <br>
+        <h4>Samples</h4>
+        <p>A spent cooking oil sample derived from fish frying was obtained from a local food vendor.</p>
+        <br>
+        <h4>Extraction Procedure</h4>
+        <ul>
+          <li>1 g of the oil sample was transferred into a 50 ml centrifuge tube.</li>
+          <li>5 ml of acetonitrile was added and shaken vigorously for 1 min.</li>
+          <li>Centrifuge for 3 min at 3000 rpm.</li>
+          <li>An aliquot (3 ml) of the acetonitrile phase (upper layer) was transferred into a 15 ml screw capped vial.</li>
+          <li>Vial containing the extract was placed in the freezer for 1.5 hours.</li>
+          <li>Frozen lipids were filtered through a clean cotton wool into a 15 ml screw capped centrifuge tube containing PSA (25 mg /ml extract).</li>
+          <li>The tube was shaken vigorously for 30 sec and centrifuged for 3 min at 3000 rpm</li>
+          <li>An aliquot of the cleaned-up extract was transferred into a screw capped GC vial.</li>
+        </ul>
+        <br>
+        <h4>Calibration</h4>
+        <p>PAHs standard, 2000ppm (Catalog Number: H-QME-01) containing 24 environmental PAHs components was purchased from AccuStandard.</p>
+        <p>Four (5) point serial dilution calibration standards (25, 50,100,250,500ppb) was prepared from the stock and used to calibrate the GC-MS.</p>
+        <br>
+        <h4>Instrument Conditions (Agilent 5977E GC-MSD)</h4>
+        <br><br>
+
+        <table>
+          <tr>
+            <td>Inlet</td>
+            <td>EPC Split/splitless</td>
+          </tr>
+          <tr>
+            <td>Mode</td>
+            <td>Splitless</td>
+          </tr>
+          <tr>
+            <td>Purge flow to split vent</td>
+            <td>15 mL/min at 0.75 min</td>
+          </tr>
+          <tr>
+            <td>Column</td>
+            <td>Agilent HP5  30 m x 320 μm x 0.25 μm</td>
+          </tr>
+          <tr>
+            <td>Injection volume</td>
+            <td>11.0 μL</td>
+          </tr>
+          <tr>
+            <td>Inlet Temperature</td>
+            <td>300° C</td>
+          </tr>
+          <tr>
+            <td>Carrier gas</td>
+            <td>Hydrogen</td>
+          </tr>
+          <tr>
+            <td>Oven</td>
+            <td>50 °C for 1 minute,
+              17 °C/min to 300 °C, hold 6.325 minutes Total run time: 17 minutes</td>
+          </tr>
+          <tr>
+            <td>Quadrupole temperature</td>
+            <td>150° C</td>
+          </tr>
+          <tr>
+            <td>Source Temperature</td>
+            <td>230°C</td>
+          </tr>
+          <tr>
+            <td>Transfer Line Temperature</td>
+            <td>280°C</td>
+          </tr>
+          <tr>
+            <td>Mode</td>
+            <td>SIM</td>
+          </tr>
+        </table>
+
+        <br><br><br>
+        <h4>Concentration Results</h4>
+
+        <table>
+          <tr>
+            <th>Compound Name </th>
+            <th>RT (min)</th>
+            <th>Amount(ppb)</th>
+          </tr>
+          <tr>
+            <td>Naphthalene</td>
+            <td>4.418</td>
+            <td>16.1693</td>
+          </tr>
+          <tr>
+            <td>Acenaphthylene</td>
+            <td>6.48</td>
+            <td>ND</td>
+          </tr>
+          <tr>
+            <td>Acenaphthene</td>
+            <td>6.73</td>
+            <td>ND</td>
+          </tr>
+          <tr>
+            <td>Fluorene</td>
+            <td>7.422</td>
+            <td>ND</td>>
+          </tr>
+          <tr>
+            <td>Phenanthrene</td>
+            <td>8.7</td>
+            <td>ND</td>
+          </tr>
+          <tr>
+            <td>Anthracene</td>
+            <td>8.7</td>
+            <td>0.8755</td>
+          </tr>
+          <tr>
+            <td>Fluoranthene</td>
+            <td>10.316</td>
+            <td>ND</td>
+          </tr>
+          <tr>
+            <td>Pyrene</td>
+            <td>10.599</td>
+            <td>ND</td>
+          </tr>
+          <tr>
+            <td>Benzo[c]phenanthrene</td>
+            <td>12.013</td>
+            <td>10.2262</td>
+          </tr>
+          <tr>
+            <td>Benz[a]anthracene</td>
+            <td>12.344</td>
+            <td>ND</td>
+          </tr>
+          <tr>
+            <td>Chrysene</td>
+            <td>12.565</td>
+            <td>1.6497</td>
+          </tr>
+          <tr>
+            <td>Benzo[b,j,k]fluoranthene/ 7,12-Dimethylbenzene</td>
+            <td>13.685</td>
+            <td>5.8030</td>
+          </tr>
+          <tr>
+            <td>Benzo[e]pyrene</td>
+            <td>13.994</td>
+            <td>ND</td>
+          </tr>
+          <tr>
+            <td>Benzo[a] pyrene</td>
+            <td>14.005</td>
+            <td>2.0572</td>
+          </tr>
+          <tr>
+            <td>3-Methylcholanthrene</td>
+            <td>14.005</td>
+            <td>ND</td>
+          </tr>
+          <tr>
+            <td>Indeno[1,2,3-cd]pyrene/Dibenz[a,h]anthracene</td>
+            <td>15.264</td>
+            <td>19.5676</td>
+          </tr>
+          <tr>
+            <td>Benzo[g,h,i]perylene</td>
+              <td>15.437</td>
+              <td>ND</td>
+          </tr>
+          <tr>
+            <td>Dibenz(a,l)pyrene</td>
+            <td>16.704</td>
+            <td>2.3098</td>
+          </tr>
+          <tr>
+            <td>Dibenz(a,i)pyrene</td>
+            <td>17.264</td>
+            <td>ND</td>
+          </tr>
+          <tr>
+            <td>Dibenz(a,h)pyrene</td>
+            <td>17.525</td>
+            <td>16.0226</td>
+          </tr>
+        </table>
+
+        <br><br>
+        <h4>SIM TIC of Spent Cooking Oil Sample</h4>
+        <br><br>
+        <div class="img-lab">
+          <img src="image/chroma 1.png">
+        </div>
+
+        <br><br><br>
+        <h4>SIM TIC of 50ppb PAH Standard</h4>
+        <br><br>
+        <div class="img-lab">
+          <img src="image/chroma 2.png">
+        
+
+        <br><br>
+        <div class="part">
+          <h4>References</h4>
+          <p>Anastassiades, M.; Scherbaum E.;Chromatographic-Mass Spectrometric Food Analysis for Trace Determination of Pesticide Residues, Sample handling and cleanup methods II - New developments2005 A. R. Fernandez-Alba. Amsterdam, New York, Tokyo, Elsevier. XLIII: 113-222 </p>
+
+          <p>Lehotay SJ, Mastovska K, et al. Evaluation of two fast and easy methods for pesticide residue analysis in fatty food matrixes, 2005, J AOAC Int 88(2): 630-8.</p>
+
+          <p>Andrianova, A. A.; Quimby, B. D. Optimized GC/MS/MS Analysis for PAHs in Challenging Matrices, <span>Agilent Technologies Application Note</span>, publication number 5994 0498EN, 2019</p>
+
+          <p>Szelewski, M.; Quimby, B. D. Optimized PAH Analysis Using the Agilent Self-Cleaning Ion Source and Enhanced PAH Analyzer, <span>Agilent Technologies Application Note,</span> publication number 5191 3003EN, 2013</p>
+      </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer">
+      <div class="logo">
+          <img src="image/download (1).png">
+      </div>
+      <div class="box-container">
+          <div class="box">
+              <h1>Expanding <span>Research</span> Frontiers</h1>
+              <p><i class="fa fa-copyright"></i> Labwox Limited, all rights reserved.</p>
+              <p>Company number: 08433320</p>
+              <p>Registered office: 2B Awori Close,</p>
+              <p>Akora Villas off Adeniyi Jones, Ikeja, Lagos</p>
+              <p><a href="#">Privacy Policy</a>  |  <a href="#">Terms and Conditions</a></p>
+          </div>
+  
+          <div class="box1">
+              <h3>Company</h3>  
+              <div class="terms">
+                  <a href="#About">About Us</a> 
+                  <a href="#services">Services</a>
+                  <a href="#Terms &">Terms &</a>
+                  <a href="#Conditions">Conditions</a>
+                  <a href="#Privacy Policy">Privacy Policy</a>
+                  <a href="#Resources">Resources</a>
+              </div>
+          </div>
+  
+          <div class="box1">
+              <h3>Contact Us</h3>
+              <a href="#" class="links">info@labwox.com</a>
+              <p>(+234)9034956049</p>
+              <p>(+234)8090870364</p>
+          </div>
+  
+          <div class="box2">
+              <h3>Sign up for insights</h3>
+              <p>Join our mailing list to get the inside track on Labwox</p>
+              <p class="enter">
+                  <input placeholder="enter your email" type="email" name="email" id="email" class="email"> <span>join</span> <img src="image/arrow.png">
+              </p>
+              <div class="share">
+                  <p><a href="#" class="fa fa-facebook"></a> Facebook</p>
+                  <p><a href="#" class="fa fa-instagram"></a> Instagram</p>
+                  <p><a href="#" class="fa fa-linkedin-square"></a> Linkedin</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- footer section -->
+  </div>
+
+  <script src="script/script.js"></script>
+</body>
+</html>

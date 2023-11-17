@@ -494,7 +494,7 @@ td
 {
     html
     {
-        font-size: 78.5%;
+        font-size: 72.5%;
     }
 
     .logo img
@@ -518,10 +518,10 @@ td
     .about
     {
         justify-content: center;
-        padding: 10rem 7rem;
-        margin-top: 220px; 
+        padding: 7rem 4.5rem;
+        margin-top: 80px; 
+        font-size: 16px;
     }
-
 }
 
 @media (max-width: 768px)
@@ -559,7 +559,8 @@ td
     .about
     {
         justify-content: center;
-        padding: 8.5rem 6.5rem; 
+        padding: 6rem 4rem;
+        font-size: 10px; 
     }
 }
 
@@ -591,7 +592,8 @@ td
     .about
     {
         justify-content: center;
-        padding: 9.5rem 7rem; 
+        padding: 5.5rem 3.5rem;
+        font-size: 10px;
     }
 
     .footer

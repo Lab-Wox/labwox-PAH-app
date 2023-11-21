@@ -270,8 +270,8 @@ td
 
 .about .img-lab img
 {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
     object-fit: contain;
     margin: .5rem;
 }
@@ -518,10 +518,18 @@ td
     .about
     {
         justify-content: center;
-        padding: 7rem 4.5rem;
+        padding: 7rem 4.3rem;
         margin-top: 180px; 
         font-size: 16px;
     }
+    
+    table
+    {
+    margin: 10px;
+    padding: 28px;
+    font-size: 1.2rem;
+    }
+    
 }
 
 @media (max-width: 768px)
@@ -559,8 +567,15 @@ td
     .about
     {
         justify-content: center;
-        padding: 6rem 4rem;
+        padding: 5rem 3.5rem;
         font-size: 10px; 
+    }
+
+     table
+    {
+    margin: 10px;
+    padding: 28px;
+    font-size: 1.2rem;
     }
 }
 
@@ -592,8 +607,15 @@ td
     .about
     {
         justify-content: center;
-        padding: 5.5rem 3.5rem;
-        font-size: 10px;
+        padding: 2.3rem 1rem;
+        font-size: 1.4rem;
+        margin-top: 200px;
+    }
+
+    table
+    {
+        margin: 10px;
+        font-size: 1.27rem;
     }
 
     .footer

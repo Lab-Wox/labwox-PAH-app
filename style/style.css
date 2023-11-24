@@ -47,7 +47,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: .4rem 4%;
-    background: var(--white);
+    background: #fff;
 }
 
 .logo img

@@ -48,7 +48,6 @@ body {
     justify-content: space-between;
     padding: .4rem 4%;
     background: var(--white);
-    box-shadow: var(--box-shadow);
 }
 
 .logo img

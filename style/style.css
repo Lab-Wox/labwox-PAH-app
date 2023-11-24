@@ -28,7 +28,7 @@ html
 }
 
 body {
-    background: #eee;
+    background: #fff;
 }
 
 .main-container
@@ -275,218 +275,6 @@ td
     margin: .5rem;
 }
 
-.footer
-{
-    background: black;
-    color: var(--white);
-    padding: 70px 60px;
-}
-
-.footer .box-container
-{
-    border: 0px solid;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 1.9rem;
-    column-gap: .5rem;
-    align-items: center;
-}
-
-.footer  .logo img
-{
-   width: 130px;
-   height: 45px;
-}
-
-.footer .box-container .box
-{
-    padding-right: 1rem;
-    font-size: 16px;
-    width: 100%;
-    height: 95%;
-}
-
-
-
- .footer .box-container .box h1
- {
-    margin: 22px 0px 33px;
-     font-size: 36px;
-     color: #fff;
-     font-family: Aeonik, sans-serif;
-     padding: 0px 10px 10px 10px;
- }
-
- .footer .box-container .box h1 span
- {
-    color: #FE423D;
-    font-size: 38px;
-    font-family: 'Playfair Display', serif;
-    margin: 22px 0px 33px;
-    padding: 0px 8px 0px 0px;
- }
-
- .footer .box-container .box p
- {
-        display: block;
-        color: #ffffff80;
-        padding: 0;
-        justify-items: center;
-        font-family: Aeonik, sans-serif;
-        line-height: 2;
-        text-align: left;
- } 
-
- .footer .box-container .box p a
- {
-        color: #ffffff80;
-        margin: 8px 0px 0px;
-        text-decoration: underline;
-        cursor: pointer;
- }
-
- .footer .box-container .box p a:hover
- {
-        text-decoration: underline;
- }
-
- .footer .box-container h3
- {
-     font-size: 24px;
-     color: #fff;
-     font-family: Aeonik, sans-serif;
- }
- 
- .footer .box-container .box1
- {
-    width: 100%;
-    height: 100%;
- }
-
- .footer .box-container .box1  .terms
- {
-    padding-bottom: 7rem;
- }
-
- .footer .box-container .box1  .terms a
- {
-     display: block;
-     font-size: 16px;
-     color: #ffffff80;
-     padding: 1rem 0;
-     padding-bottom: 2.5rem;
-     justify-items: center;
-     font-family: Aeonik, sans-serif;
-     cursor: pointer;
- }
- 
-
- .footer .box-container .box1 a
- {
-     display: block;
-     font-size: 18px;
-     color: #ffffff80;
-     padding: 1rem 0;
-     padding-bottom: 1rem;
-     justify-items: center;
-     font-family: Aeonik, sans-serif;
- }
-
- .footer .box-container  .links a
- {
-     display: block;
-     font-size: 2rem;
-     color: #ffffff80;
-     padding-top: 3rem;
-     padding-bottom: 1rem;
-     justify-items: center;
-     font-family: Aeonik, sans-serif;
-     text-decoration: underline;
-     cursor: pointer;
- }
- 
- .footer .box-container .box2
- {
-        width: 100%;
-        height: 100%;
-        padding-top: 3.5rem;
- }
-
- .footer .box-container .box2 p
- {
-        display: block;
-        font-size: 16px;
-        color: #ffffff80;
-        padding: 0;
-        justify-items: center;
-        font-family: Aeonik, sans-serif;
-        line-height: 2;
-        text-align: left;
-        padding-bottom: 1.5rem;
- }
- 
- .footer .box-container .box2 .enter
- {
-        font-size: 16px;
-        color: #ffffff80;
-        padding: 0;
-        justify-items: center;
-        font-family: Aeonik, sans-serif;
-        text-decoration: underline;
- }
- 
- .footer .box-container .box2 .enter .email 
- {
-        font-size: 18px;
-        color: #ffffff80;
-        padding-top: 2.5rem;
-        justify-items: center;
-        font-family: Aeonik, sans-serif;
-        background: transparent;
-        text-decoration: underline;
-        cursor: pointer;
-        padding-bottom: 3rem;
- }
-
-
- .footer .box-container .box2 .enter  span
- {
-        font-size: 16px;
-        color: #ffffff80;
- }
-
- .footer .box-container .box2 .share p
- {
-        display: block;
-        font-size: 18px;
-        color: #ffffff80;
-        padding: 0;
-        justify-items: center;
-        font-family: Aeonik, sans-serif;
-        line-height: 20px;
-        text-align: left;
- }
-
- .footer .box-container .box2 .share .fa
- {
-        height: 4rem;
-        width: 4rem;
-        border: 0px solid;
-        line-height: 4rem;
-        border-radius: .6rem;
-        font-size: 2.3rem;
-        color: #ffffff80;
-        margin-left: .2rem;
-        text-align: center;
-        cursor: pointer;
- }
-
- .footer .box-container .box2 .share p:hover
- {
-    text-decoration: underline;
- }
-
-
 
 /* media queries */
 @media (max-width: 991px)
@@ -506,19 +294,12 @@ td
     {
         padding: 2.5rem;
     }
-
-    .footer
-    {
-        text-align: center;
-        font-size: 16px;
-        width: 100%;
-    }
  
     .about
     {
         justify-content: center;
         padding: 7rem 4.3rem;
-        margin-top: 180px; 
+        margin-top: 120px; 
         font-size: 16px;
     }
     
@@ -615,11 +396,6 @@ td
     {
         margin: 10px;
         font-size: 1.27rem;
-    }
-
-    .footer
-    {
-        text-align: center;
     }
 
     .header .navbar
